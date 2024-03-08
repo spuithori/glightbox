@@ -488,7 +488,7 @@ export function injectAssets(url, waitFor, callback) {
 }
 
 export function isMobile() {
-    return 'navigator' in window && window.navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(Android)|(PlayBook)|(BB10)|(BlackBerry)|(Opera Mini)|(IEMobile)|(webOS)|(MeeGo)/i);
+    return false;
 }
 
 export function isTouch() {
